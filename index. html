@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Off-Road | Motocross, UTV & Quadriciclos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <div class="logo">OffRoad<span>Zone</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#roupas">Roupas</a></li>
+                <li><a href="#motos">Motos</a></li>
+                <li><a href="#utv-quadri">UTV & Quadriciclos</a></li>
+            </ul>
+        </nav>
+        <div class="carrinho">
+            <button id="btn-carrinho">🛒 Carrinho (<span id="contador-carrinho">0</span>)</button>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Acelere na Direção Certa</h2>
+            <p>As melhores roupas, motos, UTVs e quadriciclos para o seu Direct Off-Road.</p>
+            <a href="#roupas" class="btn-principal">Ver Produtos</a>
+        </div>
+    </section>
+
+    <main class="container">
+        
+        <section id="roupas" class="vitrine">
+            <h2>Roupas de Motocross</h2>
+            <div class="produtos-grid">
+                <div class="produto-card">
+                    <img src="https://via.placeholder.com/250x200?text=Conjunto+Motocross" alt="Conjunto Motocross">
+                    <h3>Conjunto Calça e Camisa Pro</h3>
+                    <p class="preco">R$ 499,90</p>
+                    <button class="btn-comprar" onclick="adicionarAoCarrinho('Conjunto Pro')">Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto-card">
+                    <img src="https://via.placeholder.com/250x200?text=Capacete+Offroad" alt="Capacete">
+                    <h3>Capacete Pro Carbon</h3>
+                    <p class="preco">R$ 899,90</p>
+                    <button class="btn-comprar" onclick="adicionarAoCarrinho('Capacete Carbon')">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="motos" class="vitrine">
+            <h2>Motos de Motocross</h2>
+            <div class="produtos-grid">
+                <div class="produto-card">
+                    <img src="https://via.placeholder.com/250x200?text=Moto+250cc" alt="Moto Motocross">
+                    <h3>Moto Dirt Bike 250cc</h3>
+                    <p class="preco">R$ 32.000,00</p>
+                    <button class="btn-comprar" onclick="adicionarAoCarrinho('Moto 250cc')">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="utv-quadri" class="vitrine">
+            <h2>UTVs & Quadriciclos</h2>
+            <div class="produtos-grid">
+                <div class="produto-card">
+                    <img src="https://via.placeholder.com/250x200?text=UTV+Turbo" alt="UTV">
+                    <h3>UTV Turbo 4x4</h3>
+                    <p class="preco">R$ 85.000,00</p>
+                    <button class="btn-comprar" onclick="adicionarAoCarrinho('UTV Turbo')">Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto-card">
+                    <img src="https://via.placeholder.com/250x200?text=Quadriciclo+450cc" alt="Quadriciclo">
+                    <h3>Quadriciclo Sport 450cc</h3>
+                    <p class="preco">R$ 42.500,00</p>
+                    <button class="btn-comprar" onclick="adicionarAoCarrinho('Quadriciclo 450cc')">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 OffRoadZone. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
