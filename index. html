@@ -1,1 +1,73 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MX Powersports | Motocross, UTV e Quadriciclos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MX <span>Powersports</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon" id="cart-btn">🛒 <span id="cart-count">0</span></div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Acelere com os Melhores</h1>
+            <p>Roupas de motocross, motos, UTVs e quadriciclos em um só lugar.</p>
+            <a href="#produtos" class="btn">Ver Catálogo</a>
+        </div>
+    </section>
+
+    <section id="produtos" class="products-section">
+        <h2>Nossas Categorias</h2>
+        
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="badge">Equipamentos</div>
+                <h3>Roupas de Motocross</h3>
+                <p>Conjuntos, capacetes e botas das melhores marcas para sua proteção.</p>
+                <button class="buy-btn">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <div class="badge">Motos</div>
+                <h3>Motos de Motocross</h3>
+                <p>Modelos de alta performance de 125cc a 450cc prontas para a pista.</p>
+                <button class="buy-btn">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <div class="badge">UTV</div>
+                <h3>UTVs (Side-by-Side)</h3>
+                <p>Força e conforto para encarar qualquer trilha ou duna com segurança.</p>
+                <button class="buy-btn">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <div class="badge">Quadris</div>
+                <h3>Quadriciclos (ATV)</h3>
+                <p>Modelos robustos de tração 4x4 para trabalho ou pura diversão no Off-Road.</p>
+                <button class="buy-btn">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MX Powersports. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
